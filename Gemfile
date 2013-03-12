@@ -29,6 +29,10 @@ group :assets do
   gem 'compass-rails'
 end
 
+group :production do
+  gem 'locomotive-aloha-rails', :git => 'git@github.com:dbwest/aloha-rails.git'
+end
+
 group :test do
   gem 'launchy'
 
