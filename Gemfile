@@ -42,7 +42,7 @@ group :test do
   # gem 'growl-glue'
 
   gem 'cucumber-rails',     :require => false
-  gem 'poltergeist',        '~> 1.0.2'
+  gem 'poltergeist', '~> 1.0.2'
   gem 'rspec-rails',        '~> 2.8.0'
   gem 'shoulda-matchers'
 
