@@ -41,13 +41,13 @@ group :test do
 
   # gem 'growl-glue'
 
-  gem 'cucumber-rails',     :require => false
+  gem 'cucumber-rails', '>= 1.3.0', :require => false
   gem 'poltergeist',        '~> 1.0.2'
   gem 'rspec-rails',        '~> 2.8.0'
   gem 'shoulda-matchers'
 
   gem 'factory_girl_rails', '~> 1.6.0'
-  gem 'pickle'
+  gem 'pickle', '>= 0.4.11'
   gem 'mocha',              '0.9.12' # :git => 'git://github.com/floehopper/mocha.git'
 
   gem 'capybara',           '~> 1.1'
