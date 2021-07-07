@@ -34,7 +34,7 @@ group :production do
 end
 
 group :test do
-  gem 'launchy'
+  gem 'launchy', '>= 2.1.2'
 
   # gem 'autotest', :platforms => :mri
   # gem 'ZenTest', :platforms => :mri
