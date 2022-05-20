@@ -42,7 +42,7 @@ group :test do
   # gem 'growl-glue'
 
   gem 'cucumber-rails',     :require => false
-  gem 'poltergeist',        '~> 1.0.2'
+  gem 'poltergeist', '~> 1.0.2'
   gem 'rspec-rails',        '~> 2.8.0'
   gem 'shoulda-matchers'
 
@@ -50,9 +50,9 @@ group :test do
   gem 'pickle'
   gem 'mocha',              '0.9.12' # :git => 'git://github.com/floehopper/mocha.git'
 
-  gem 'capybara',           '~> 1.1'
+  gem 'capybara', '~> 1.1', '>= 1.1.4'
 
-  gem 'xpath',              '~> 0.1.4'
+  gem 'xpath', '~> 0.1.4'
 
   gem 'json_spec'
 
