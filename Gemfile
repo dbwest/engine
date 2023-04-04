@@ -15,17 +15,17 @@ group :development do
   # gem 'locomotive-tinymce-rails', '~> 3.4.7.5', :path => '../gems/tinymce-rails' # for Developers
   # gem 'locomotive_liquid', :path => '../gems/liquid' # for Developers
 
-  gem 'rspec-rails', '~> 2.8.0' # In order to have rspec tasks and generators
-  gem 'rspec-cells'
+  gem 'rspec-rails', '~> 2.8.1' # In order to have rspec tasks and generators
+  gem 'rspec-cells', '>= 0.1.10'
 
   gem 'unicorn' # Using unicorn_rails instead of webrick (default server)
 
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.4'
-  gem 'coffee-rails', '~> 3.2.2'
-  gem 'uglifier',     '~> 1.2.4'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'coffee-rails', '~> 4.2.2'
+  gem 'uglifier', '~> 2.7.2'
   gem 'compass-rails'
 end
 
@@ -42,17 +42,17 @@ group :test do
   # gem 'growl-glue'
 
   gem 'cucumber-rails',     :require => false
-  gem 'poltergeist',        '~> 1.0.2'
-  gem 'rspec-rails',        '~> 2.8.0'
+  gem 'poltergeist', '~> 1.0.2'
+  gem 'rspec-rails', '~> 2.8.1'
   gem 'shoulda-matchers'
 
   gem 'factory_girl_rails', '~> 1.6.0'
   gem 'pickle'
   gem 'mocha',              '0.9.12' # :git => 'git://github.com/floehopper/mocha.git'
 
-  gem 'capybara',           '~> 1.1'
+  gem 'capybara', '~> 1.1', '>= 1.1.4'
 
-  gem 'xpath',              '~> 0.1.4'
+  gem 'xpath', '~> 0.1.4'
 
   gem 'json_spec'
 
