@@ -16,14 +16,14 @@ group :development do
   # gem 'locomotive_liquid', :path => '../gems/liquid' # for Developers
 
   gem 'rspec-rails', '~> 2.8.0' # In order to have rspec tasks and generators
-  gem 'rspec-cells'
+  gem 'rspec-cells', '>= 0.3.0'
 
   gem 'unicorn' # Using unicorn_rails instead of webrick (default server)
 
 end
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.4'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 3.2.2'
   gem 'uglifier',     '~> 1.2.4'
   gem 'compass-rails'
