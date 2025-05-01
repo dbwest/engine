@@ -15,7 +15,7 @@ group :development do
   # gem 'locomotive-tinymce-rails', '~> 3.4.7.5', :path => '../gems/tinymce-rails' # for Developers
   # gem 'locomotive_liquid', :path => '../gems/liquid' # for Developers
 
-  gem 'rspec-rails', '~> 2.8.0' # In order to have rspec tasks and generators
+  gem 'rspec-rails', '~> 8.0.0' # In order to have rspec tasks and generators
   gem 'rspec-cells'
 
   gem 'unicorn' # Using unicorn_rails instead of webrick (default server)
@@ -43,7 +43,7 @@ group :test do
 
   gem 'cucumber-rails',     :require => false
   gem 'poltergeist',        '~> 1.0.2'
-  gem 'rspec-rails',        '~> 2.8.0'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'shoulda-matchers'
 
   gem 'factory_girl_rails', '~> 1.6.0'
